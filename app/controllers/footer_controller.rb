@@ -16,4 +16,8 @@ class FooterController < ApplicationController
   	render 'youth_advisory'
   end
 
+  def faq
+  	render 'faq'
+  end
+
 end
