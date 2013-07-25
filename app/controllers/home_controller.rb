@@ -4,10 +4,4 @@ class HomeController < ApplicationController
     render 'landing'
   end
 
-  def about
-  end
-
-  def landing
-  end
-
 end
