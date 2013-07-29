@@ -1,16 +1,17 @@
+$grey: #565656;
+$teal: #00969b;
+
 footer {
-  position: fixed;
 	width: 100%;
-	bottom: 0;
 	background: #eee;
-	padding: 20px 0 40px;
+	padding: 40px 0 40px;
 }
 
-footer h2 {
+footer h4 {
 	text-transform: uppercase;
-	font-size: 14px;
 	margin: 0;
-	color: #00969b;
+	padding-bottom: 10px;
+	color: $teal;
 }
 
 footer ul {
@@ -29,5 +30,10 @@ footer li {
 }
 
 footer a {
-	color: #565656;
+	color: $grey;
+	&:hover {
+		text-decoration: none;
+		color:
+		lighten($grey, 20%);
+	}
 }
