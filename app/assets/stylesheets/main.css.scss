@@ -1,4 +1,3 @@
-$white: #fff;
 $teal: #00969b;
 
 h1, h2, h3, h4 {
@@ -40,14 +39,14 @@ p, li, a, label, input {
 	&:hover {
 		background-color:
 		darken($teal, 10%);
-		color: $white;
+		color: white;
 		text-decoration: none;
 	}
 	text-transform: uppercase;
 	display: inline-block;
 	background-color: $teal;
 	padding: 15px 20px;
-	color: $white;
+	color: white;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;

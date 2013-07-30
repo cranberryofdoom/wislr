@@ -1,0 +1,43 @@
+$grey: #565656;
+$teal: #00969b;
+$light-grey: #eee;
+
+.sidebar-header-tab {
+	text-transform: uppercase;
+	background-color: $teal;
+	color: white;
+	padding: 10px 10px;
+	margin: 0;
+}
+
+.sidebar-list {
+	background-color: $light-grey;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding: 10px 0;
+	border-radius: 0 0 15px 15px;
+	-webkit-border-radius: 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px;
+}
+
+.sidebar-tab {
+	list-style-type: none;
+	padding: 10px 20px;
+}
+
+.sidebar-tab a {
+	text-decoration: none;
+	color: $grey;
+	&:hover {
+		color:
+		lighten($grey, 20%);
+	}
+}
+
+.tab-content {
+	background-color: $light-grey;
+	padding: 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}

@@ -1,9 +1,10 @@
 $grey: #565656;
 $teal: #00969b;
+$light-grey: #eee;
 
 footer {
 	width: 100%;
-	background: #eee;
+	background: $light-grey;
 	padding: 40px 0 40px;
 }
 
