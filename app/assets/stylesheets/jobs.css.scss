@@ -2,45 +2,45 @@ $grey: #565656;
 $teal: #00969b;
 $light-grey: #eee;
 
-.nav {
-	margin-bottom: 0;
+.jobs-tab {
+	list-style-type: none;
+	margin: 0;
+	.dropdown {
+		display: inline-block;
+		padding: 0 10px;
+		background-color: 
+		darken($light-grey, 10%);
+		border-radius: 10px 10px 0 0;
+		-webkit-border-radius: 10px 10px 0 0;
+		-moz-border-radius: 10px 10px 0 0;
+		&:hover {
+			background-color:$light-grey;
+		}
+		.dropdown-toggle {
+			text-decoration: none;
+			color: $teal;
+			text-transform: uppercase;
+		}
+		.dropdown-menu {
+			border: none;
+			background-color: $light-grey;
+		}
+	}
+	.open, .active {
+		background-color: $light-grey;
+	}
 }
 
-.nav-tabs > li > a {
-	padding: 0 10px;
-	background-color: $light-grey;
-}
-
-.sidebar-header-tab {
-	display: inline-block;
-	text-transform: uppercase;
-	color: $teal;
-}
-
-.sidebar-list {
-	background-color: $light-grey;
-	margin-bottom: 10px;
-	margin-left: 0;
+.tab-overview {
+	background-color:
+	darken($light-grey, 10%);
+	padding: 20px;
 	border-radius: 0 0 15px 15px;
 	-webkit-border-radius: 0 0 15px 15px;
 	-moz-border-radius: 0 0 15px 15px;
 }
 
-.sidebar-tab {
-	list-style-type: none;
-	display: inline-block;
-}
-
-.sidebar-tab a {
-	text-decoration: none;
-	color: $grey;
-	&:hover {
-		color:
-		lighten($grey, 20%);
-	}
-}
-
-.tab-content {
+.tab-description {
 	background-color: $light-grey;
 	padding: 20px;
 	border-radius: 0 0 15px 15px;
