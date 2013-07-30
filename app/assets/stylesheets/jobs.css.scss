@@ -2,19 +2,25 @@ $grey: #565656;
 $teal: #00969b;
 $light-grey: #eee;
 
+.nav {
+	margin-bottom: 0;
+}
+
+.nav-tabs > li > a {
+	padding: 0 10px;
+	background-color: $light-grey;
+}
+
 .sidebar-header-tab {
+	display: inline-block;
 	text-transform: uppercase;
-	background-color: $teal;
-	color: white;
-	padding: 10px 10px;
-	margin: 0;
+	color: $teal;
 }
 
 .sidebar-list {
 	background-color: $light-grey;
 	margin-bottom: 10px;
 	margin-left: 0;
-	padding: 10px 0;
 	border-radius: 0 0 15px 15px;
 	-webkit-border-radius: 0 0 15px 15px;
 	-moz-border-radius: 0 0 15px 15px;
@@ -22,7 +28,7 @@ $light-grey: #eee;
 
 .sidebar-tab {
 	list-style-type: none;
-	padding: 10px 20px;
+	display: inline-block;
 }
 
 .sidebar-tab a {
@@ -37,7 +43,7 @@ $light-grey: #eee;
 .tab-content {
 	background-color: $light-grey;
 	padding: 20px;
-	border-radius: 15px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
+	border-radius: 0 0 15px 15px;
+	-webkit-border-radius: 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px;
 }
