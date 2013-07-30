@@ -20,11 +20,15 @@ $teal: #00969b;
 	z-index: 2;
 }
 
+.hero-carousel-header {
+	z-index: 3;
+}
+
 @media screen and (max-width: 979px) and (min-width: 768px) {
 	.hero-carousel {
-		top: 118px;
+		top: 115px;
 		left: 55px;
-		width: 244px;
+		width: 243px;
 	}
 }
 

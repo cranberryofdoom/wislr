@@ -8,7 +8,7 @@ Wislr::Application.routes.draw do
   get '/contact-us' => 'footer#contact_us'
   get '/community' => 'policies#community'
   get '/tos' => 'policies#tos'
-  get '/privacy' => 'policies#privacy'
+  get '/privacy-policy' => 'policies#privacy_policy'
 
   # You can have the root of your site routed with "root"
   root :to => 'home#index'
