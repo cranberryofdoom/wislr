@@ -1,0 +1,27 @@
+$teal: #00969b;
+
+.accordion-inner ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion-inner li {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion-toggle {
+	font-weight: bold;
+	color: $teal;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+.active {
+	background: #eee;
+	font-weight: bold;
+}
