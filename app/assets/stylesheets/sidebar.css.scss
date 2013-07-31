@@ -19,13 +19,13 @@ $teal: #00969b;
 		text-decoration: none;
 		background: #eee;
 	}
+	.active {
+		background: #eee;
+		font-weight: bold;
+	}
 }
 
 .open {
 	background: #eee;
 }
 
-.active {
-	background: #eee;
-	font-weight: bold;
-}

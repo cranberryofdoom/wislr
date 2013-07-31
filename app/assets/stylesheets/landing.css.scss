@@ -1,8 +1,17 @@
 $white: #fff;
 $teal: #00969b;
+
+.landing-content {
+	padding: 25px;
+}
+
 .colored-bar {
 	background-color: $teal;
 	padding: 0.75%;
+}
+
+.wislr-teal {
+	width: 75%;
 }
 
 .iphone-demo {
@@ -36,17 +45,12 @@ $teal: #00969b;
 	}
 }
 
+.hero-form {
+	margin-top: 40px;
+}
+
 .hero-copy {
 	margin: 150px 0;
-}
-
-.hero-sub-copy {
-	font-size: 3em;
-	margin: 25px 0;
-}
-
-.hero-btn {
-	margin-top: 20px;
 }
 
 .vertical .carousel-inner {
@@ -100,12 +104,4 @@ $teal: #00969b;
 
 .icon-chevron-down {
 	margin: 12px;
-}
-
-.modal-header {
-	background-color: $teal;
-	color: $white;
-	border-radius: 6px 6px 0 0;
-	-webkit-border-radius: 6px 6px 0 0;
-	-moz-border-radius: 6px 6px 0 0;
 }

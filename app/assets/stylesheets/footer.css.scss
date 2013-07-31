@@ -2,6 +2,12 @@ $grey: #565656;
 $teal: #00969b;
 $light-grey: #eee;
 
+@media screen and (max-width: 767px) {
+	footer {
+		text-align: center;
+	}
+}
+
 footer {
 	width: 100%;
 	background: $light-grey;
