@@ -5,7 +5,18 @@
 	border-radius: 50%;
 }
 
-.content .span3 {
-	text-align: center;
+.content {
+	.row-fluid {
+		margin-bottom: 14px;
+	}
+
+
+	.span3 {
+		text-align: center;
+
+		h4 {
+			margin-bottom: 0;
+		}
+	}
 }
 

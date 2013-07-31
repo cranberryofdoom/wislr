@@ -1,29 +1,29 @@
 <div class="colored-bar"></div>
-<div class="container content">
+<div class="container landing-content">
 	<div class="row-fluid">
 		<div class="span6 hero-copy text-center">
 			<img class="wislr-teal" src="/wislr_teal.png">
 			<h3>The Private High School<br>
 				Mobile Network</h3>
-			<div class="hero-form">
-				<%= form_for(@user) do |f| %>
+				<div class="hero-form">
+					<%= form_for(@user) do |f| %>
 
-				<%= f.label :first_name %>
-				<%= f.text_field :first_name, class: "span6" %>
+					<%= f.label :first_name %>
+					<%= f.text_field :first_name, class: "span6" %>
 
-			    <%= f.label :last_name %>
-			    <%= f.text_field :last_name %>
+					<%= f.label :last_name %>
+					<%= f.text_field :last_name %>
 
-			    <%= f.label :school %>
-			    <%= f.text_field :school %>
+					<%= f.label :school %>
+					<%= f.text_field :school %>
 
-				<%= f.label :phone_number %>
-				<%= f.password_field :phone_number %>
-				<br>
-				<%= f.submit "Get Invited!", class: "custom-btn" %>
-				<% end %>
-			</div>
-	
+					<%= f.label :phone_number %>
+					<%= f.password_field :phone_number %>
+					<br>
+					<%= f.submit "Get Invited!", class: "custom-btn" %>
+					<% end %>
+				</div>
+				
 <!-- 				<div class="hero-form">
 					<form id="hero-form">
 						<input class="span6" type="text" id="inputFirstName" placeholder="First Name">
@@ -33,19 +33,19 @@
 						<a role="button" class="custom-btn" id="get-invited">Get Invited</a>
 					</form>
 				</div> -->
-		</div>
-		<div class="span6 iphone-demo">
-			<img class="iphone5" src="/iphone5.png">
-			<img class="hero-carousel hero-carousel-header" src="/whistles/whistle-header.png">
-			<div id="heroCarousel" class="vertical carousel slide hero-carousel">
-				<!-- Carousel items -->
-				<div class="carousel-inner">
-					<div class="item active"><img src="/whistles/whistle1.png"></div>
-					<div class="item"><img src="/whistles/whistle2.png"></div>
+			</div>
+			<div class="span6 iphone-demo">
+				<img class="iphone5" src="/iphone5.png">
+				<img class="hero-carousel hero-carousel-header" src="/whistles/whistle-header.png">
+				<div id="heroCarousel" class="vertical carousel slide hero-carousel">
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="item active"><img src="/whistles/whistle1.png"></div>
+						<div class="item"><img src="/whistles/whistle2.png"></div>
+					</div>
+					<!-- Carousel nav -->
+					<a class="carousel-control right" href="#heroCarousel" data-slide="next"><img src=""><i class="icon-chevron-down icon-white"></i></a>
 				</div>
-				<!-- Carousel nav -->
-				<a class="carousel-control right" href="#heroCarousel" data-slide="next"><img src=""><i class="icon-chevron-down icon-white"></i></a>
 			</div>
 		</div>
 	</div>
-</div>
