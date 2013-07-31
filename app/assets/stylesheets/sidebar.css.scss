@@ -8,7 +8,7 @@ $teal: #00969b;
 
 .accordion-inner li {
 	text-align: left;
-	margin: 0;
+	margin: 0 0 5px;
 	padding: 0;
 }
 
@@ -17,9 +17,13 @@ $teal: #00969b;
 	color: $teal;
 	&:hover {
 		text-decoration: none;
+		background: #eee;
 	}
 }
 
+.open {
+	background: #eee;
+}
 
 .active {
 	background: #eee;
