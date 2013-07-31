@@ -21,15 +21,15 @@ $teal: #00969b;
 
 .iphone5 {
 	position: absolute;
-	width: 400px;
+	width: 350px;
 	z-index: 1;
 }
 
 .hero-carousel {
 	position: absolute;
-	top: 131px;
-	left: 62px;
-	width: 277px;
+	top: 117px;
+	left: 55px;
+	width: 241px;
 	z-index: 2;
 }
 
@@ -51,6 +51,7 @@ $teal: #00969b;
 
 .hero-copy {
 	margin: 150px 0;
+	padding: 0 25px;
 }
 
 .vertical .carousel-inner {

@@ -8,17 +8,42 @@ $light-grey: #eee;
 	border-bottom: 1px solid $light-grey;
 	.dropdown {
 		display: inline-block;
-		padding: 0 20px;
+		padding: 10px 0;
+		margin: 0 20px -3px 20px;
 		.dropdown-toggle {
 			text-decoration: none;
 			color: $teal;
 			text-transform: uppercase;
 		}
 	}
+	.open {
+		background-color: transparent;
+		border-bottom: 5px solid $teal;
+	}
 }
 
-.tab-overview {
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	.active {
+		a {
+			background-image: none;
+			background-color: $teal;
+		}
+	}
+	li {
+		a {
+			padding: 10px 20px;
+			&:hover {
+				background-image: none;
+				background-color: $teal;
+			}
+		}
+	}
 }
 
-.tab-description {
+.tab-content {
+	margin: 10px 0;
 }
