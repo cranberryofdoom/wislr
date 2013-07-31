@@ -5,45 +5,20 @@ $light-grey: #eee;
 .jobs-tab {
 	list-style-type: none;
 	margin: 0;
+	border-bottom: 1px solid $light-grey;
 	.dropdown {
 		display: inline-block;
-		padding: 0 10px;
-		background-color: 
-		darken($light-grey, 10%);
-		border-radius: 10px 10px 0 0;
-		-webkit-border-radius: 10px 10px 0 0;
-		-moz-border-radius: 10px 10px 0 0;
-		&:hover {
-			background-color:$light-grey;
-		}
+		padding: 0 20px;
 		.dropdown-toggle {
 			text-decoration: none;
 			color: $teal;
 			text-transform: uppercase;
 		}
-		.dropdown-menu {
-			border: none;
-			background-color: $light-grey;
-		}
-	}
-	.open, .active {
-		background-color: $light-grey;
 	}
 }
 
 .tab-overview {
-	background-color:
-	darken($light-grey, 10%);
-	padding: 20px;
-	border-radius: 0 0 15px 15px;
-	-webkit-border-radius: 0 0 15px 15px;
-	-moz-border-radius: 0 0 15px 15px;
 }
 
 .tab-description {
-	background-color: $light-grey;
-	padding: 20px;
-	border-radius: 0 0 15px 15px;
-	-webkit-border-radius: 0 0 15px 15px;
-	-moz-border-radius: 0 0 15px 15px;
 }
