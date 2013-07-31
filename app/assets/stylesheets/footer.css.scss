@@ -12,35 +12,40 @@ footer {
 	width: 100%;
 	background: $light-grey;
 	padding: 40px 0 40px;
-}
 
-footer h4 {
+	.container {
+		width: 65%;
+	}
+
+	h4 {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 10px 0;
 	color: $teal;
-}
+	}
 
-footer ul {
+	ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-}
+	}
 
-footer .social {
+	.social {
 	margin-right: 2px;
 	width: 28px;
-}
-
-footer li {
-	margin-bottom: 2px;
-}
-
-footer a {
-	color: $grey;
-	&:hover {
-		text-decoration: none;
-		color:
-		lighten($grey, 20%);
 	}
+
+	li {
+	margin-bottom: 2px;
+	}
+
+	a {
+		color: $grey;
+		&:hover {
+			text-decoration: none;
+			color:
+			lighten($grey, 20%);
+		}
+	}
+		
 }
