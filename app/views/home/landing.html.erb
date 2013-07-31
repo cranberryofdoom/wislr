@@ -6,14 +6,33 @@
 			<h3>The Private High School<br>
 				Mobile Network</h3>
 			<div class="hero-form">
-				<form>
-					<input class="span6" type="text" id="inputFirstName" placeholder="First Name">
-					<input class="span6" type="text" id="inputLastName" placeholder="Last Name">
-					<input class="span4" type="text" id="inputPhoneNumber" placeholder="Phone Number">
-					<input class="span8" type="text" data-provide="typeahead" placeholder="School Name">
-				</form>
+				<%= form_for(@user) do |f| %>
+
+				<%= f.label :first_name %>
+				<%= f.text_field :first_name, class: "span6" %>
+
+			    <%= f.label :last_name %>
+			    <%= f.text_field :last_name %>
+
+			    <%= f.label :school %>
+			    <%= f.text_field :school %>
+
+				<%= f.label :phone_number %>
+				<%= f.password_field :phone_number %>
+				<br>
+				<%= f.submit "Get Invited!", class: "custom-btn" %>
+				<% end %>
 			</div>
-			<a role="button" class="custom-btn">Get Invited</a>
+	
+<!-- 				<div class="hero-form">
+					<form id="hero-form">
+						<input class="span6" type="text" id="inputFirstName" placeholder="First Name">
+						<input class="span6" type="text" id="inputLastName" placeholder="Last Name">
+						<input class="span4" type="text" id="inputPhoneNumber" placeholder="Phone Number">
+						<input class="span8" type="text" data-provide="typeahead" placeholder="School Name">
+						<a role="button" class="custom-btn" id="get-invited">Get Invited</a>
+					</form>
+				</div> -->
 		</div>
 		<div class="span6 iphone-demo">
 			<img class="iphone5" src="/iphone5.png">
