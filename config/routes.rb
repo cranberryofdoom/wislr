@@ -1,8 +1,6 @@
 Wislr::Application.routes.draw do
-  get "users/new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  resources:users
   get '/about' => 'footer#about'
   get '/blog' => 'footer#blog'
   get '/youth-advisory' => 'footer#youth_advisory'
@@ -11,6 +9,8 @@ Wislr::Application.routes.draw do
   get '/community' => 'policies#community'
   get '/tos' => 'policies#tos'
   get '/privacy-policy' => 'policies#privacy_policy'
+  get "/whistles" => 'whistles#index'
+
 
   # You can have the root of your site routed with "root"
   root :to => 'home#index'
