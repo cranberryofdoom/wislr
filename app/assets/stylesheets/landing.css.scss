@@ -2,6 +2,10 @@ $white: #fff;
 $teal: #00969b;
 $light-grey: #eee;
 
+.lead {
+	margin: 0;
+}
+
 .landing-content {
 	padding: 25px;
 }
@@ -42,11 +46,11 @@ $light-grey: #eee;
 }
 
 .hero-form {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .hero-copy {
-	margin: 75px 0;
+	margin: 100px 0;
 	padding: 0 25px;
 }
 
