@@ -10,10 +10,11 @@ Wislr::Application.routes.draw do
   get '/tos' => 'policies#tos'
   get '/privacy-policy' => 'policies#privacy_policy'
   get "/whistles" => 'whistles#index'
+  get '/index' => 'home#index'
 
 
   # You can have the root of your site routed with "root"
-  root :to => 'home#index'
+  root :to => 'home#temp'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

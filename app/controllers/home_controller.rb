@@ -4,6 +4,7 @@ class HomeController < ApplicationController
     render 'landing'
   end
 
-
-
+  def temp
+  	render 'temp'
+  end
 end
