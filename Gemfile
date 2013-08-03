@@ -4,8 +4,6 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 gem 'pg', '0.16.0'
-gem 'sqlite3'
-
 
 gem 'sass-rails', '4.0.0'
 gem 'uglifier', '2.1.1'
