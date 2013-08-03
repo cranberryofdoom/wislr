@@ -22,6 +22,6 @@ module Wislr
   end
 end
 
-config.generators do |g|
-  g.orm             :parse_resource
-end
+# config.generators do |g|
+#   g.orm             :parse_resource
+# end
