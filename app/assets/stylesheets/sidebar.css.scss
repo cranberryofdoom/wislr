@@ -7,7 +7,7 @@ $grey: #565656;
 	padding: 0;
 	li {
 		text-align: left;
-		margin: 0 0 5px;
+		margin: 0 0 10px;
 		padding: 0;
 		a {
 			color: $grey;
@@ -16,8 +16,7 @@ $grey: #565656;
 				color: lighten($grey,20%);
 			}
 		}
-	}
-	
+	}	
 }
 
 .accordion-toggle {

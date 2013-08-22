@@ -21,3 +21,7 @@ module Wislr
     # config.i18n.default_locale = :de
   end
 end
+
+# config.generators do |g|
+#   g.orm             :parse_resource
+# end

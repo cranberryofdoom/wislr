@@ -1,10 +1,10 @@
 class HomeController < ApplicationController
 
   def index
-  	@user = User.new
     render 'landing'
   end
 
-
-
+  def temp
+  	render 'temp'
+  end
 end

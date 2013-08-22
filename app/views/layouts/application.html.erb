@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Wislr</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://www.parsecdn.com/js/parse-1.2.8.min.js"></script>
 	<%= stylesheet_link_tag    "application" %>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
 	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -11,7 +13,4 @@
 <body>
 	<%= yield %>
 </body>
-<%= render "shared/footer" %>
-<script type="text/javascript">
-</script>
 </html>
