@@ -3,12 +3,12 @@ $teal: #00969b;
 $light-grey: #eee;
 
 @media screen and (max-width: 767px) {
-	footer {
+	#footer {
 		text-align: center;
 	}
 }
 
-footer {
+#footer {
 	width: 100%;
 	background: $light-grey;
 	padding: 40px 0 40px;
